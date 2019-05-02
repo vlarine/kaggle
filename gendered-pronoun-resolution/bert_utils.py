@@ -5,9 +5,6 @@ From the `extract_features.py` script
 
 import tensorflow as tf
 import bert
-from bert import run_classifier
-from bert import optimization
-from bert import tokenization
 from bert import modeling
 
 
