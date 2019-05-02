@@ -1,0 +1,246 @@
+Collecting https://github.com/huggingface/neuralcoref-models/releases/download/en_coref_md-3.0.0/en_coref_md-3.0.0.tar.gz (from -r requirements.txt (line 1))
+  Downloading https://github.com/huggingface/neuralcoref-models/releases/download/en_coref_md-3.0.0/en_coref_md-3.0.0.tar.gz (161.3MB)
+Collecting allennlp==0.8.3 (from -r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/a4/c8/10342a6068a8d156a5947e03c95525d559e71ad62de0f2585ab922e14533/allennlp-0.8.3-py3-none-any.whl
+Collecting cymem==1.31.2 (from -r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/a5/0f/d29aa68c55db37844c77e7e96143bd96651fd0f4453c9f6ee043ac846b77/cymem-1.31.2-cp36-cp36m-manylinux1_x86_64.whl
+Collecting spacy==2.0.12 (from -r requirements.txt (line 4))
+Collecting pandas==0.23.4 (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/e1/d8/feeb346d41f181e83fba45224ab14a8d8af019b48af742e047f3845d8cff/pandas-0.23.4-cp36-cp36m-manylinux1_x86_64.whl
+Collecting numpy==1.16.2 (from -r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/35/d5/4f8410ac303e690144f0a0603c4b8fd3b986feb2749c435f7cdbb288f17e/numpy-1.16.2-cp36-cp36m-manylinux1_x86_64.whl
+Collecting tqdm (from -r requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/6c/4b/c38b5144cf167c4f52288517436ccafefe9dc01b8d1c190e18a6b154cd4a/tqdm-4.31.1-py2.py3-none-any.whl
+Collecting tensorflow==1.13.1 (from -r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/77/63/a9fa76de8dffe7455304c4ed635be4aa9c0bacef6e0633d87d5f54530c5c/tensorflow-1.13.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting requests>=2.18 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/7d/e3/20f3d364d6c8e5d2353c72a67778eb189176f08e873c9900e10c0287b84b/requests-2.21.0-py2.py3-none-any.whl
+Collecting scikit-learn (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/5e/82/c0de5839d613b82bddd088599ac0bbfbbbcbd8ca470680658352d2c435bd/scikit_learn-0.20.3-cp36-cp36m-manylinux1_x86_64.whl
+Collecting word2number>=1.1 (from allennlp==0.8.3->-r requirements.txt (line 2))
+Collecting parsimonious>=0.8.0 (from allennlp==0.8.3->-r requirements.txt (line 2))
+Collecting unidecode (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/31/39/53096f9217b057cb049fe872b7fc7ce799a1a89b76cf917d9639e7a558b5/Unidecode-1.0.23-py2.py3-none-any.whl
+Collecting conllu==0.11 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/d4/2c/856344d9b69baf5b374c395b4286626181a80f0c2b2f704914d18a1cea47/conllu-0.11-py2.py3-none-any.whl
+Collecting pytz>=2017.3 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/3d/73/fe30c2daaaa0713420d0382b16fbb761409f532c56bdcc514bf7b6262bb6/pytz-2019.1-py2.py3-none-any.whl
+Collecting pytorch-pretrained-bert>=0.6.0 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/5d/3c/d5fa084dd3a82ffc645aba78c417e6072ff48552e3301b1fa3bd711e03d4/pytorch_pretrained_bert-0.6.1-py3-none-any.whl
+Collecting flask>=1.0.2 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl
+Collecting editdistance (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/77/67/2b1fe72bdd13ee9ec32b97959d7dfbfcd7c0548081d69aaf8493c1e695f9/editdistance-0.5.3-cp36-cp36m-manylinux1_x86_64.whl
+Collecting ftfy (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/8f/86/df789c5834f15ae1ca53a8d4c1fc4788676c2e32112f6a786f2625d9c6e6/ftfy-5.5.1-py3-none-any.whl
+Collecting pytest (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/7e/16/83b2a35c427b838df9836c9e7e4ae6dfbcbdea643db44652f693b1c57d70/pytest-4.4.0-py2.py3-none-any.whl
+Collecting msgpack<0.6.0,>=0.5.6 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/22/4e/dcf124fd97e5f5611123d6ad9f40ffd6eb979d1efdc1049e28a795672fcd/msgpack-0.5.6-cp36-cp36m-manylinux1_x86_64.whl
+Collecting torch>=0.4.1 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/31/ca/dd2c64f8ab5e7985c4af6e62da933849293906edcdb70dac679c93477733/torch-1.0.1.post2-cp36-cp36m-manylinux1_x86_64.whl
+Collecting awscli>=1.11.91 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/3d/41/f03fa1b10c7619262da75d34ce93067c9f0dc274dbd482200250319d9bef/awscli-1.16.140-py2.py3-none-any.whl
+Collecting overrides (from allennlp==0.8.3->-r requirements.txt (line 2))
+Collecting h5py (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/30/99/d7d4fbf2d02bb30fb76179911a250074b55b852d34e98dd452a9f394ac06/h5py-2.9.0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting boto3 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/c3/ef/f81d8c35c7254fe2af9a1a8e034f07b88a824a441f37955d0a07a90b8ec7/boto3-1.9.130-py2.py3-none-any.whl
+Collecting moto>=1.3.4 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/57/40/cec89fa5c13108eb1c8de435633f8b7639e0e43fcbcdc8ac52633efeeabe/moto-1.3.7-py2.py3-none-any.whl
+Collecting flaky (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/02/42/cca66659a786567c8af98587d66d75e7d2b6e65662f8daab75db708ac35b/flaky-3.5.3-py2.py3-none-any.whl
+Collecting nltk (from allennlp==0.8.3->-r requirements.txt (line 2))
+Collecting scipy (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/7f/5f/c48860704092933bf1c4c1574a8de1ffd16bf4fde8bab190d747598844b2/scipy-1.2.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting numpydoc>=0.8.0 (from allennlp==0.8.3->-r requirements.txt (line 2))
+Collecting tensorboardX>=1.2 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/5c/76/89dd44458eb976347e5a6e75eb79fecf8facd46c1ce259bad54e0044ea35/tensorboardX-1.6-py2.py3-none-any.whl
+Collecting responses>=0.7 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/d1/5a/b887e89925f1de7890ef298a74438371ed4ed29b33def9e6d02dc6036fd8/responses-0.10.6-py2.py3-none-any.whl
+Collecting sqlparse>=0.2.4 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/ef/53/900f7d2a54557c6a37886585a91336520e5539e3ae2423ff1102daf4f3a7/sqlparse-0.3.0-py2.py3-none-any.whl
+Collecting flask-cors>=3.0.7 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/65/cb/683f71ff8daa3aea0a5cbb276074de39f9ab66d3fbb8ad5efb5bb83e90d2/Flask_Cors-3.0.7-py2.py3-none-any.whl
+Collecting gevent>=1.3.6 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/f2/ca/5b5962361ed832847b6b2f9a2d0452c8c2f29a93baef850bb8ad067c7bf9/gevent-1.4.0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting jsonnet>=0.10.0; sys_platform != "win32" (from allennlp==0.8.3->-r requirements.txt (line 2))
+Collecting matplotlib>=2.2.3 (from allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/e9/69/f5e05f578585ed9935247be3788b374f90701296a70c8871bcd6d21edb00/matplotlib-3.0.3-cp36-cp36m-manylinux1_x86_64.whl
+Collecting plac<1.0.0,>=0.9.6 (from spacy==2.0.12->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/9e/9b/62c60d2f5bc135d2aa1d8c8a86aaf84edb719a59c7f11a4316259e61a298/plac-0.9.6-py2.py3-none-any.whl
+Collecting dill<0.3,>=0.2 (from spacy==2.0.12->-r requirements.txt (line 4))
+Collecting thinc<6.11.0,>=6.10.3 (from spacy==2.0.12->-r requirements.txt (line 4))
+Collecting preshed<2.0.0,>=1.0.0 (from spacy==2.0.12->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/12/88/57a818051f3d71e800bfb7ba4df56d3ea5793482ef11f1d2109b726f3bac/preshed-1.0.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting ujson>=1.35 (from spacy==2.0.12->-r requirements.txt (line 4))
+Collecting regex==2017.4.5 (from spacy==2.0.12->-r requirements.txt (line 4))
+Collecting murmurhash<0.29,>=0.28 (from spacy==2.0.12->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/82/55/7f050e9f73c9a58df219c63e77304b0ff01676847061dc99abb484cff3a8/murmurhash-0.28.0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting python-dateutil>=2.5.0 (from pandas==0.23.4->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl
+Collecting keras-applications>=1.0.6 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/90/85/64c82949765cfb246bbdaf5aca2d55f400f792655927a017710a78445def/Keras_Applications-1.0.7-py2.py3-none-any.whl
+Collecting six>=1.10.0 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting tensorboard<1.14.0,>=1.13.0 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/0f/39/bdd75b08a6fba41f098b6cb091b9e8c7a80e1b4d679a581a0ccd17b10373/tensorboard-1.13.1-py3-none-any.whl
+Collecting protobuf>=3.6.1 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/5a/aa/a858df367b464f5e9452e1c538aa47754d467023850c00b000287750fa77/protobuf-3.7.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting tensorflow-estimator<1.14.0rc0,>=1.13.0 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/bb/48/13f49fc3fa0fdf916aa1419013bb8f2ad09674c275b4046d5ee669a46873/tensorflow_estimator-1.13.0-py2.py3-none-any.whl
+Collecting astor>=0.6.0 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/35/6b/11530768cac581a12952a2aad00e1526b89d242d0b9f59534ef6e6a1752f/astor-0.7.1-py2.py3-none-any.whl
+Collecting absl-py>=0.1.6 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+Collecting gast>=0.2.0 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+Requirement already satisfied: wheel>=0.26 in ./final_subm1_from_scratch/lib/python3.6/site-packages (from tensorflow==1.13.1->-r requirements.txt (line 8)) (0.33.1)
+Collecting keras-preprocessing>=1.0.5 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/c0/bf/0315ef6a9fd3fc2346e85b0ff1f5f83ca17073f2c31ac719ab2e4da0d4a3/Keras_Preprocessing-1.0.9-py2.py3-none-any.whl
+Collecting termcolor>=1.1.0 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+Collecting grpcio>=1.8.6 (from tensorflow==1.13.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/f4/dc/5503d89e530988eb7a1aed337dcb456ef8150f7c06132233bd9e41ec0215/grpcio-1.19.0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting certifi>=2017.4.17 (from requests>=2.18->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/60/75/f692a584e85b7eaba0e03827b3d51f45f571c2e793dd731e598828d380aa/certifi-2019.3.9-py2.py3-none-any.whl
+Collecting urllib3<1.25,>=1.21.1 (from requests>=2.18->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/62/00/ee1d7de624db8ba7090d1226aebefab96a2c71cd5cfa7629d6ad3f61b79e/urllib3-1.24.1-py2.py3-none-any.whl
+Collecting idna<2.9,>=2.5 (from requests>=2.18->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl
+Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.18->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Collecting click>=5.1 (from flask>=1.0.2->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl
+Collecting Jinja2>=2.10 (from flask>=1.0.2->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl
+Collecting Werkzeug>=0.14 (from flask>=1.0.2->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/18/79/84f02539cc181cdbf5ff5a41b9f52cae870b6f632767e43ba6ac70132e92/Werkzeug-0.15.2-py2.py3-none-any.whl
+Collecting itsdangerous>=0.24 (from flask>=1.0.2->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting wcwidth (from ftfy->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting atomicwrites>=1.0 (from pytest->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/52/90/6155aa926f43f2b2a22b01be7241be3bfd1ceaf7d0b3267213e8127d41f4/atomicwrites-1.3.0-py2.py3-none-any.whl
+Collecting more-itertools>=4.0.0; python_version > "2.7" (from pytest->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/b3/73/64fb5922b745fc1daee8a2880d907d2a70d9c7bb71eea86fcb9445daab5e/more_itertools-7.0.0-py3-none-any.whl
+Collecting pluggy>=0.9 (from pytest->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/84/e8/4ddac125b5a0e84ea6ffc93cfccf1e7ee1924e88f53c64e98227f0af2a5f/pluggy-0.9.0-py2.py3-none-any.whl
+Collecting py>=1.5.0 (from pytest->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/76/bc/394ad449851729244a97857ee14d7cba61ddb268dce3db538ba2f2ba1f0f/py-1.8.0-py2.py3-none-any.whl
+Collecting attrs>=17.4.0 (from pytest->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs-19.1.0-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in ./final_subm1_from_scratch/lib/python3.6/site-packages (from pytest->allennlp==0.8.3->-r requirements.txt (line 2)) (41.0.0)
+Collecting docutils>=0.10 (from awscli>=1.11.91->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docutils-0.14-py3-none-any.whl
+Collecting PyYAML<=3.13,>=3.10 (from awscli>=1.11.91->allennlp==0.8.3->-r requirements.txt (line 2))
+Collecting colorama<=0.3.9,>=0.2.5 (from awscli>=1.11.91->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/db/c8/7dcf9dbcb22429512708fe3a547f8b6101c0d02137acbd892505aee57adf/colorama-0.3.9-py2.py3-none-any.whl
+Collecting botocore==1.12.130 (from awscli>=1.11.91->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/21/80/6683916e9e1eaf867e09b81a6df6d7a2ba181e3095d2367c7a0f635ed1ed/botocore-1.12.130-py2.py3-none-any.whl
+Collecting rsa<=3.5.0,>=3.1.2 (from awscli>=1.11.91->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/e1/ae/baedc9cb175552e95f3395c43055a6a5e125ae4d48a1d7a924baca83e92e/rsa-3.4.2-py2.py3-none-any.whl
+Collecting s3transfer<0.3.0,>=0.2.0 (from awscli>=1.11.91->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/d7/de/5737f602e22073ecbded7a0c590707085e154e32b68d86545dcc31004c02/s3transfer-0.2.0-py2.py3-none-any.whl
+Collecting jmespath<1.0.0,>=0.7.1 (from boto3->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/83/94/7179c3832a6d45b266ddb2aac329e101367fbdb11f425f13771d27f225bb/jmespath-0.9.4-py2.py3-none-any.whl
+Collecting python-jose<3.0.0 (from moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/bf/5c/5fa238c0c5b0656994b52721dd8b1d7bf52ebd8786518dde794f44de86b6/python_jose-2.0.2-py2.py3-none-any.whl
+Collecting jsondiff==1.1.1 (from moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+Collecting aws-xray-sdk<0.96,>=0.93 (from moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/a4/a5/da7887285564f9e0ae5cd25a453cca36e2cd43d8ccc9effde260b4d80904/aws_xray_sdk-0.95-py2.py3-none-any.whl
+Collecting cryptography>=2.3.0 (from moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/5b/12/b0409a94dad366d98a8eee2a77678c7a73aafd8c0e4b835abea634ea3896/cryptography-2.6.1-cp34-abi3-manylinux1_x86_64.whl
+Collecting mock (from moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/e6/35/f187bdf23be87092bd0f1200d43d23076cee4d0dec109f195173fd3ebc79/mock-2.0.0-py2.py3-none-any.whl
+Collecting boto>=2.36.0 (from moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/23/10/c0b78c27298029e4454a472a1919bde20cb182dab1662cec7f2ca1dcc523/boto-2.49.0-py2.py3-none-any.whl
+Collecting docker>=2.5.1 (from moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/48/68/c3afca1a5aa8d2997ec3b8ee822a4d752cf85907b321f07ea86888545152/docker-3.7.2-py2.py3-none-any.whl
+Collecting xmltodict (from moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/28/fd/30d5c1d3ac29ce229f6bdc40bbc20b28f716e8b363140c26eff19122d8a5/xmltodict-0.12.0-py2.py3-none-any.whl
+Collecting pyaml (from moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/c5/e1/1523fb1dab744e2c6b1f02446f2139a78726c18c062a8ddd53875abb20f8/pyaml-18.11.0-py2.py3-none-any.whl
+Collecting singledispatch (from nltk->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/c5/10/369f50bcd4621b263927b0a1519987a04383d4a98fb10438042ad410cf88/singledispatch-3.4.0.3-py2.py3-none-any.whl
+Collecting sphinx>=1.2.3 (from numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/9a/b0/a8cf1d35237aebefd63f05543ed49ea24d302239828ca89409b0c1a35b27/Sphinx-2.0.1-py2.py3-none-any.whl
+Collecting greenlet>=0.4.14; platform_python_implementation == "CPython" (from gevent>=1.3.6->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/bf/45/142141aa47e01a5779f0fa5a53b81f8379ce8f2b1cd13df7d2f1d751ae42/greenlet-0.4.15-cp36-cp36m-manylinux1_x86_64.whl
+Collecting kiwisolver>=1.0.1 (from matplotlib>=2.2.3->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/69/a7/88719d132b18300b4369fbffa741841cfd36d1e637e1990f27929945b538/kiwisolver-1.0.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 (from matplotlib>=2.2.3->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/dd/d9/3ec19e966301a6e25769976999bd7bbe552016f0d32b577dc9d63d2e0c49/pyparsing-2.4.0-py2.py3-none-any.whl
+Collecting cycler>=0.10 (from matplotlib>=2.2.3->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl
+Collecting msgpack-numpy<1.0.0,>=0.4.1 (from thinc<6.11.0,>=6.10.3->spacy==2.0.12->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/b4/1c/68fcaeb72ac4a9c7f44cf4d19082bd4e486cd035134b118ddea6eff10e7d/msgpack_numpy-0.4.4.2-py2.py3-none-any.whl
+Collecting wrapt<1.11.0,>=1.10.0 (from thinc<6.11.0,>=6.10.3->spacy==2.0.12->-r requirements.txt (line 4))
+Collecting cytoolz<0.10,>=0.9.0 (from thinc<6.11.0,>=6.10.3->spacy==2.0.12->-r requirements.txt (line 4))
+Collecting markdown>=2.6.8 (from tensorboard<1.14.0,>=1.13.0->tensorflow==1.13.1->-r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/f5/e4/d8c18f2555add57ff21bf25af36d827145896a07607486cc79a2aea641af/Markdown-3.1-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.10->flask>=1.0.2->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/b2/5f/23e0023be6bb885d00ffbefad2942bc51a620328ee910f64abe5a8d18dd1/MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting pyasn1>=0.1.3 (from rsa<=3.5.0,>=3.1.2->awscli>=1.11.91->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/7b/7c/c9386b82a25115cccf1903441bba3cbadcfae7b678a20167347fa8ded34c/pyasn1-0.4.5-py2.py3-none-any.whl
+Collecting ecdsa<1.0 (from python-jose<3.0.0->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/63/f4/73669d51825516ce8c43b816c0a6b64cd6eb71d08b99820c00792cb42222/ecdsa-0.13-py2.py3-none-any.whl
+Collecting pycryptodome<4.0.0,>=3.3.1 (from python-jose<3.0.0->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/06/fc/b09816d7b2d79d6454f75b40def94a89ed785d8d8d07840563f1084c6ecd/pycryptodome-3.8.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting future<1.0 (from python-jose<3.0.0->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+Collecting jsonpickle (from aws-xray-sdk<0.96,>=0.93->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/dc/12/8c44eabb501e2bc0aec0dd152b328074d98a50968d3a02be28f6037f0c6a/jsonpickle-1.1-py2.py3-none-any.whl
+Collecting asn1crypto>=0.21.0 (from cryptography>=2.3.0->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/ea/cd/35485615f45f30a510576f1a56d1e0a7ad7bd8ab5ed7cdc600ef7cd06222/asn1crypto-0.24.0-py2.py3-none-any.whl
+Collecting cffi!=1.11.3,>=1.8 (from cryptography>=2.3.0->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/20/f7/87b62a8895bf7c93e907b05b97bc4459c81a38a61151f03a6eae13d863aa/cffi-1.12.2-cp36-cp36m-manylinux1_x86_64.whl
+Collecting pbr>=0.11 (from mock->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/14/09/12fe9a14237a6b7e0ba3a8d6fcf254bf4b10ec56a0185f73d651145e9222/pbr-5.1.3-py2.py3-none-any.whl
+Collecting websocket-client>=0.32.0 (from docker>=2.5.1->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/29/19/44753eab1fdb50770ac69605527e8859468f3c0fd7dc5a76dd9c4dbd7906/websocket_client-0.56.0-py2.py3-none-any.whl
+Collecting docker-pycreds>=0.4.0 (from docker>=2.5.1->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/f5/e8/f6bd1eee09314e7e6dee49cbe2c5e22314ccdb38db16c9fc72d2fa80d054/docker_pycreds-0.4.0-py2.py3-none-any.whl
+Collecting Pygments>=2.0 (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/13/e5/6d710c9cf96c31ac82657bcfb441df328b22df8564d58d0c4cd62612674c/Pygments-2.3.1-py2.py3-none-any.whl
+Collecting alabaster<0.8,>=0.7 (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/10/ad/00b090d23a222943eb0eda509720a404f531a439e803f6538f35136cae9e/alabaster-0.7.12-py2.py3-none-any.whl
+Collecting sphinxcontrib-devhelp (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/b0/a3/fea98741f0b2f2902fbf6c35c8e91b22cd0dd13387291e81d457f9a93066/sphinxcontrib_devhelp-1.0.1-py2.py3-none-any.whl
+Collecting sphinxcontrib-qthelp (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/ce/5b/4747c3ba98b3a3e21a66faa183d8f79b9ded70e74212a7988d236a6eb78a/sphinxcontrib_qthelp-1.0.2-py2.py3-none-any.whl
+Collecting sphinxcontrib-applehelp (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/13/9a/4428b3114d654cb1cd34d90d5e6fab938d5436f94a571155187ea1dd78b4/sphinxcontrib_applehelp-1.0.1-py2.py3-none-any.whl
+Collecting snowballstemmer>=1.1 (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/d4/6c/8a935e2c7b54a37714656d753e4187ee0631988184ed50c0cf6476858566/snowballstemmer-1.2.1-py2.py3-none-any.whl
+Collecting imagesize (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/fc/b6/aef66b4c52a6ad6ac18cf6ebc5731ed06d8c9ae4d3b2d9951f261150be67/imagesize-1.1.0-py2.py3-none-any.whl
+Collecting sphinxcontrib-serializinghtml (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/57/b3/3648e48fa5682e61e9839d62de4e23af1795ceb738d68d73bd974257a95c/sphinxcontrib_serializinghtml-1.1.3-py2.py3-none-any.whl
+Collecting sphinxcontrib-jsmath (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/c2/42/4c8646762ee83602e3fb3fbe774c2fac12f317deb0b5dbeeedd2d3ba4b77/sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl
+Collecting babel!=2.0,>=1.3 (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/b8/ad/c6f60602d3ee3d92fbed87675b6fb6a6f9a38c223343ababdb44ba201f10/Babel-2.6.0-py2.py3-none-any.whl
+Collecting sphinxcontrib-htmlhelp (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/e4/35/80a67cc493f4a8a9634ab203a77aaa1b84d79ccb1c02eca72cb084d2c7f7/sphinxcontrib_htmlhelp-1.0.2-py2.py3-none-any.whl
+Collecting packaging (from sphinx>=1.2.3->numpydoc>=0.8.0->allennlp==0.8.3->-r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/91/32/58bc30e646e55eab8b21abf89e353f59c0cc02c417e42929f4a9546e1b1d/packaging-19.0-py2.py3-none-any.whl
+Collecting toolz>=0.8.0 (from cytoolz<0.10,>=0.9.0->thinc<6.11.0,>=6.10.3->spacy==2.0.12->-r requirements.txt (line 4))
+Collecting pycparser (from cffi!=1.11.3,>=1.8->cryptography>=2.3.0->moto>=1.3.4->allennlp==0.8.3->-r requirements.txt (line 2))
+Building wheels for collected packages: en-coref-md
+  Building wheel for en-coref-md (setup.py): started
+  Building wheel for en-coref-md (setup.py): finished with status 'done'
+  Stored in directory: /home/kashn500/.cache/pip/wheels/aa/a3/8f/9df13c027b75169bcca62682563e9823bb213c72a2cc3efed8
+Successfully built en-coref-md
+Installing collected packages: certifi, urllib3, idna, chardet, requests, numpy, scipy, scikit-learn, word2number, six, parsimonious, unidecode, cymem, plac, dill, msgpack, msgpack-numpy, tqdm, preshed, murmurhash, wrapt, toolz, cytoolz, thinc, ujson, regex, spacy, conllu, pytz, jmespath, docutils, python-dateutil, botocore, s3transfer, boto3, torch, pytorch-pretrained-bert, click, MarkupSafe, Jinja2, Werkzeug, itsdangerous, flask, editdistance, wcwidth, ftfy, atomicwrites, more-itertools, pluggy, py, attrs, pytest, PyYAML, colorama, pyasn1, rsa, awscli, overrides, h5py, ecdsa, pycryptodome, future, python-jose, jsondiff, responses, jsonpickle, aws-xray-sdk, asn1crypto, pycparser, cffi, cryptography, pbr, mock, boto, websocket-client, docker-pycreds, docker, xmltodict, pyaml, moto, flaky, singledispatch, nltk, Pygments, alabaster, sphinxcontrib-devhelp, sphinxcontrib-qthelp, sphinxcontrib-applehelp, snowballstemmer, imagesize, sphinxcontrib-serializinghtml, sphinxcontrib-jsmath, babel, sphinxcontrib-htmlhelp, pyparsing, packaging, sphinx, numpydoc, protobuf, tensorboardX, sqlparse, flask-cors, greenlet, gevent, jsonnet, kiwisolver, cycler, matplotlib, allennlp, pandas, keras-applications, markdown, grpcio, absl-py, tensorboard, tensorflow-estimator, astor, gast, keras-preprocessing, termcolor, tensorflow, en-coref-md
+Successfully installed Jinja2-2.10.1 MarkupSafe-1.1.1 PyYAML-3.13 Pygments-2.3.1 Werkzeug-0.15.2 absl-py-0.7.1 alabaster-0.7.12 allennlp-0.8.3 asn1crypto-0.24.0 astor-0.7.1 atomicwrites-1.3.0 attrs-19.1.0 aws-xray-sdk-0.95 awscli-1.16.140 babel-2.6.0 boto-2.49.0 boto3-1.9.130 botocore-1.12.130 certifi-2019.3.9 cffi-1.12.2 chardet-3.0.4 click-7.0 colorama-0.3.9 conllu-0.11 cryptography-2.6.1 cycler-0.10.0 cymem-1.31.2 cytoolz-0.9.0.1 dill-0.2.9 docker-3.7.2 docker-pycreds-0.4.0 docutils-0.14 ecdsa-0.13 editdistance-0.5.3 en-coref-md-3.0.0 flaky-3.5.3 flask-1.0.2 flask-cors-3.0.7 ftfy-5.5.1 future-0.17.1 gast-0.2.2 gevent-1.4.0 greenlet-0.4.15 grpcio-1.19.0 h5py-2.9.0 idna-2.8 imagesize-1.1.0 itsdangerous-1.1.0 jmespath-0.9.4 jsondiff-1.1.1 jsonnet-0.12.1 jsonpickle-1.1 keras-applications-1.0.7 keras-preprocessing-1.0.9 kiwisolver-1.0.1 markdown-3.1 matplotlib-3.0.3 mock-2.0.0 more-itertools-7.0.0 moto-1.3.7 msgpack-0.5.6 msgpack-numpy-0.4.4.2 murmurhash-0.28.0 nltk-3.4 numpy-1.16.2 numpydoc-0.8.0 overrides-1.9 packaging-19.0 pandas-0.23.4 parsimonious-0.8.1 pbr-5.1.3 plac-0.9.6 pluggy-0.9.0 preshed-1.0.1 protobuf-3.7.1 py-1.8.0 pyaml-18.11.0 pyasn1-0.4.5 pycparser-2.19 pycryptodome-3.8.1 pyparsing-2.4.0 pytest-4.4.0 python-dateutil-2.8.0 python-jose-2.0.2 pytorch-pretrained-bert-0.6.1 pytz-2019.1 regex-2017.4.5 requests-2.21.0 responses-0.10.6 rsa-3.4.2 s3transfer-0.2.0 scikit-learn-0.20.3 scipy-1.2.1 singledispatch-3.4.0.3 six-1.12.0 snowballstemmer-1.2.1 spacy-2.0.12 sphinx-2.0.1 sphinxcontrib-applehelp-1.0.1 sphinxcontrib-devhelp-1.0.1 sphinxcontrib-htmlhelp-1.0.2 sphinxcontrib-jsmath-1.0.1 sphinxcontrib-qthelp-1.0.2 sphinxcontrib-serializinghtml-1.1.3 sqlparse-0.3.0 tensorboard-1.13.1 tensorboardX-1.6 tensorflow-1.13.1 tensorflow-estimator-1.13.0 termcolor-1.1.0 thinc-6.10.3 toolz-0.9.0 torch-1.0.1.post2 tqdm-4.31.1 ujson-1.35 unidecode-1.0.23 urllib3-1.24.1 wcwidth-0.1.7 websocket-client-0.56.0 word2number-1.1 wrapt-1.10.11 xmltodict-0.12.0
+Archive:  uncased_L-24_H-1024_A-16.zip
+   creating: uncased_L-24_H-1024_A-16/
+  inflating: uncased_L-24_H-1024_A-16/bert_model.ckpt.meta  
+  inflating: uncased_L-24_H-1024_A-16/bert_model.ckpt.data-00000-of-00001  
+  inflating: uncased_L-24_H-1024_A-16/vocab.txt  
+  inflating: uncased_L-24_H-1024_A-16/bert_model.ckpt.index  
+  inflating: uncased_L-24_H-1024_A-16/bert_config.json  
+Archive:  cased_L-24_H-1024_A-16.zip
+   creating: cased_L-24_H-1024_A-16/
+  inflating: cased_L-24_H-1024_A-16/bert_model.ckpt.meta  
+  inflating: cased_L-24_H-1024_A-16/bert_model.ckpt.data-00000-of-00001  
+  inflating: cased_L-24_H-1024_A-16/vocab.txt  
+  inflating: cased_L-24_H-1024_A-16/bert_model.ckpt.index  
+  inflating: cased_L-24_H-1024_A-16/bert_config.json  
