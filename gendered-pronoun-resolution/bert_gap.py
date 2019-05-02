@@ -13,11 +13,7 @@ import re
 import fnmatch
 import string
 
-import bert
-from bert import run_classifier
-from bert import optimization
-from bert import tokenization
-from bert import modeling
+from bert import modeling, tokenization
 
 from bert_utils import *
 import tensorflow as tf
